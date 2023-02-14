@@ -1,6 +1,9 @@
 
-[こちらのPR](https://github.com/trstringer/manual-approval/pull/74#issuecomment-1419317804)がpublishされないのでforkしました
+[こちらのPR](https://github.com/trstringer/manual-approval/pull/74#issuecomment-1419317804)がpublishされないのでforkしました。近いうちに公式側でissue-bodyをサポートするdockerイメージが公開されたらそちらに乗り換える想定です。
 
+ビルドはREADMEに書かれた手順を実行しています。
+
+事前準備として手元では自身のgithub packageへのwrite権限が付いたPATを使って `echo <PAT> | docker login ghcr.io -u USERNAME --password-stdin` を実行してghcrへの認証を行う必要があるので注意。
 
 # Manual Workflow Approval
 
